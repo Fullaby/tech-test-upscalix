@@ -72,7 +72,7 @@ class ControllerData{
             lastName: lastName,
             birthDate: new Date(date)
         }})
-        // if(firstName == test&& lastName == && date == )
+        
         if(test== null){
             res.status(404).json({
                 error_message: "user not valid or not registered"
